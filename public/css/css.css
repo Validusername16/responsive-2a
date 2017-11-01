@@ -1,0 +1,79 @@
+.n, .number, .dot{
+    font-family: Pesaro;
+}
+.caption{
+    font-family: "JaneAusten NoSecret";
+    color: darkgrey;
+    position: absolute;
+    left:330px;
+    top:670px;
+    transform: rotate(270deg);
+
+
+
+
+}
+.title{
+    font-family: "Pesaro";
+    font-size: 100px;
+    position: absolute;
+
+    left:255px;
+    top:118px;
+}
+.name{
+    text-align: center;
+    font-family: "Aspira DEMO";
+    width:225px;
+    position:absolute;
+    top:200px;
+    left:20px;
+}
+.volume{
+    font-family:"Pesaro";
+    transform: rotate(270deg);
+    position:absolute;
+    left:-125px;
+    top:500px;
+    font-size: 100px;
+    color:darkgrey;
+z-index:2;
+}
+.image{
+    z-index:1;
+    position: absolute;
+    top:300px;
+    left:100px;
+}
+.n{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-size: 50px;
+    text-underline-style: dotted;
+    color:darkgrey;
+    position:absolute;
+    top:800px;
+    left:48px;
+}
+.number{
+    z-index: 3;
+    font-size: 50px;
+    color: darkgrey;
+    position: absolute;
+    top:800px;
+    left:83px;
+}
+.date{
+    font-family: "Aspira DEMO";
+    text-align:center;
+    width:600px;
+    position: absolute;
+    top:1000px;
+}
+.dot{
+    color:darkgrey;
+    font-size: 50px;
+    position: absolute;
+    top:800px;
+    left:80px;
+}
