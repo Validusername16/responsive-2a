@@ -1,6 +1,9 @@
 .n, .number, .dot{
     font-family: Pesaro;
 }
+.number{
+    opacity: 1;
+}
 .caption{
     font-family: "JaneAusten NoSecret";
     color: darkgrey;
@@ -8,10 +11,6 @@
     left:330px;
     top:670px;
     transform: rotate(270deg);
-
-
-
-
 }
 .title{
     font-family: "Pesaro";
@@ -76,4 +75,69 @@ z-index:2;
     position: absolute;
     top:800px;
     left:80px;
+}
+.name-2{
+    text-align: center;
+    font-family: "Aspira DEMO";
+width:225px;
+    position: absolute;
+    top:240px;
+    left:20px;
+}
+.two{
+    opacity: 0;
+}
+@media only screen and (max-width: 600px){
+.title{
+
+    font-size:50px;
+    position:absolute;
+    left:69px;
+}
+    .name,.name-2{
+        width:320px;
+        left:0px;
+
+    }
+
+    .caption{
+        opacity: 0;
+        left:0px;
+    }
+    .volume{
+        transform: rotate(0deg);
+        font-size: 20px;
+        top:280px;
+        left:180px;
+    }
+    .n{
+        font-size:20px;
+        top:280px;
+        left: 270px;
+    }
+    .dot{
+
+        font-size: 20px;
+        top:280px;
+        left:265px;
+        z-index: 2;
+    }
+    .number{
+        opacity: 0;
+    }
+    .two{
+        opacity:1;
+        font-size: 20px;
+        position: absolute;
+        top: 280px;
+        left:290px;
+        color:darkgrey;
+    }
+    .image{
+        position: absolute;
+        left:-50px;
+    }
+    .date{
+        width:320px;
+    }
 }
